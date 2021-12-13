@@ -1,0 +1,24 @@
+# PagueMob Backend Test
+
+- [X] Should be able to **register** a `Company`
+- [X] Should be able to return a list with all Companies
+- [X] Should be able to search for Companies whose name **contains** a specified word
+- [X] Should be able to return a list of Companies in a specified `Industry`
+- [X] Should be able to return a single `Company` with a specified `id`
+- [X] Should be able to return a list of employees that work at a specified `Company`
+- [X] Should be able to **register** an `Employee`
+- [X] Should be able to return a list of all Employees
+- [X] Should be able to return a list of Employees whose `Job Title` **contains** a specified word
+- [X] Should be able to return a single `Employee` with a specified `id`
+- [X] Should be able to return a list with all supported Industries (List can have any entries, but at least 10 pre-definied items)
+- [ ] Authentication using OAuth2 and Spring Security (so you won't need to register user access, you could authenticate any username with a giving email domain while ignoring other domains.)
+- [X] Use pagination for list results
+- [X] API tests
+- [X] Validation errors
+- [X] API documentation
+- [ ] Live version on [Heroku](https://heroku.com)
+- Access Roles
+    - [ ] System admin authorized to create/list companies and employees of any company
+    - [ ] Company admin authorized to create/list employes and data of his company
+    - [ ] Company user authorized only to list companies and employes
+    - [ ] Unsigned user authorized only to list companies (no employee data)
